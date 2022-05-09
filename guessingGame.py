@@ -19,7 +19,7 @@ elif guess1 == random :
 
 
 if guess1 != random :
-    guess2 = int(input('Guess a number from 1-9: '))
+    guess2 = int(input('Guess a number from 0-20: '))
 
     if guess2 < random :
         print('Guess too small')
@@ -32,7 +32,7 @@ if guess1 != random :
 
 
 if guess2 != random :
-    guess3 = int(input('Guess a number from 1-9: '))
+    guess3 = int(input('Guess a number from 0-20: '))
 
     if guess3 < random :
         print('Guess too small')
@@ -45,7 +45,7 @@ if guess2 != random :
 
 
 if guess3 != random :
-    guess4 = int(input('Guess a number from 1-9: '))
+    guess4 = int(input('Guess a number from 0-20: '))
 
     if guess4 < random :
         print('Guess too small')
@@ -58,7 +58,7 @@ if guess3 != random :
 
 
 if guess4 != random :
-    guess5 = int(input('Guess a number from 1-9: '))
+    guess5 = int(input('Guess a number from 0-20: '))
 
     if guess5 != random :
         print('You lost. Better luck next time. The number was... ', random)
